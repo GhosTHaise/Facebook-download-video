@@ -1,14 +1,4 @@
 Flask==2.0.1
 gunicorn==20.1.0
 youtube-dl==2021.6.6
-pip
-Django==1.6.2
-argparse==1.2.1]
-dj-database-url==0.3.0
-dj-static==0.0.5
-django-toolbelt==0.0.1
-psycopg2==2.5.2
-pystache==0.5.3
-static==1.0.2
-wsgiref==0.1.2
 yt-dlg @ git+https://github.com/oleksis/youtube-dl-gui.git@c4ff97fc9661132c16605b0787359d54944f7d55
