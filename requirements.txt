@@ -1,6 +1,4 @@
 Flask==2.0.1
 gunicorn==20.1.0
-json5==0.9.5
 youtube-dl==2021.6.6
 yt-dlg @ git+https://github.com/oleksis/youtube-dl-gui.git@c4ff97fc9661132c16605b0787359d54944f7d55
-
