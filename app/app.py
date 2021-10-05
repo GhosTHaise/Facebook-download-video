@@ -9,13 +9,13 @@ def home():
 def Download():
     url = request.form["url"]
     print("You are trying to dowmnload :",url)
-    try:
-        with youtube_dl.YoutubeDL() as ydl:
-            url =  ydl.extract_info(url,download=False)
-            download_link = (url["formats"][-1]["url"])
-            return redirect(download_link+"&dl=1")
-    except:
-        return "URL not valid or not found"
+    #try:
+    with youtube_dl.YoutubeDL() as ydl:
+          url =  ydl.extract_info(url,download=False)
+          download_link = (url["formats"][-1]["url"])
+          return redirect(download_link+"&dl=1")
+    #except:
+        #return "URL not valid or not found"
 @app.route('/developer')
 def developer():
     return render_template("developer.html")
